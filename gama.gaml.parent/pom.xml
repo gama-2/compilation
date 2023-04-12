@@ -130,6 +130,7 @@
 
 	<modules>
 <module>../gama.gaml.compiler</module>
+<module>../gama.feature.gaml</module>
 	</modules>
 
 	<dependencies>
