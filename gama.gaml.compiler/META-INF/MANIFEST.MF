@@ -15,7 +15,9 @@ Require-Bundle: org.eclipse.xtext;visibility:=reexport,
  org.apache.commons.logging;resolution:=optional;visibility:=reexport,
  gama.core.dependencies,
  org.eclipse.xtext.xbase.lib,
- org.eclipse.xtext.xtext.generator;resolution:=optional
+ org.eclipse.xtext.xtext.generator;resolution:=optional,
+ org.eclipse.emf.mwe2.launch;bundle-version="2.14.0",
+ org.apache.log4j;bundle-version="1.2.19"
 Export-Package: gama.gaml.compiler.gaml,
  gama.gaml.compiler.gaml.documentation,
  gama.gaml.compiler.gaml.expression,

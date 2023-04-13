@@ -5,7 +5,7 @@ import org.eclipse.xtext.xtext.generator.*
 import org.eclipse.xtext.xtext.ui.generator.*
 import java.util.*
 
-var baseName = "gama.gaml.compiler"
+var baseName = "gama.gaml.compiler.gaml"
 var uiProjectName = "ummisco.gama.ui.modeling"
 var runtimeProject = baseName
 var ideProjectName = "${uiProjectName}"
