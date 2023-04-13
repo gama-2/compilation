@@ -3,16 +3,16 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
+import gama.gaml.compiler.gaml.GamlPackage;
+import gama.gaml.compiler.gaml.SkillFakeDefinition;
+import gama.gaml.compiler.gaml.SkillRef;
+
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-
-import gama.gaml.compiler.gaml.GamlPackage;
-import gama.gaml.compiler.gaml.SkillFakeDefinition;
-import gama.gaml.compiler.gaml.SkillRef;
 
 /**
  * <!-- begin-user-doc -->

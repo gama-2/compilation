@@ -3,12 +3,12 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
+import gama.gaml.compiler.gaml.Expression;
+import gama.gaml.compiler.gaml.GamlPackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
-import gama.gaml.compiler.gaml.Expression;
-import gama.gaml.compiler.gaml.GamlPackage;
 
 /**
  * <!-- begin-user-doc -->

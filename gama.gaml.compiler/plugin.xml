@@ -6,7 +6,7 @@
   <extension point="org.eclipse.emf.ecore.generated_package">
     <package 
        uri = "http://www.gama.msi/lang/gaml/Gaml" 
-       class = "gama.gaml.compiler.gaml.GamlPackage"
+       class = "gama.gaml.compiler.GamlPackage"
        genModel = "model/generated/Gaml.genmodel" /> 
 	
   </extension>

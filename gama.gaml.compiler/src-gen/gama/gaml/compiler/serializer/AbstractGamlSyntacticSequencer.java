@@ -4,11 +4,8 @@
 package gama.gaml.compiler.serializer;
 
 import com.google.inject.Inject;
-
 import gama.gaml.compiler.services.GamlGrammarAccess;
-
 import java.util.List;
-
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.xtext.IGrammarAccess;
 import org.eclipse.xtext.RuleCall;

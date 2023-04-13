@@ -3,6 +3,12 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
+import gama.gaml.compiler.gaml.EquationDefinition;
+import gama.gaml.compiler.gaml.GamlDefinition;
+import gama.gaml.compiler.gaml.GamlPackage;
+import gama.gaml.compiler.gaml.S_Assignment;
+import gama.gaml.compiler.gaml.S_Equations;
+
 import java.util.Collection;
 
 import org.eclipse.emf.common.notify.Notification;
@@ -17,12 +23,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-
-import gama.gaml.compiler.gaml.EquationDefinition;
-import gama.gaml.compiler.gaml.GamlDefinition;
-import gama.gaml.compiler.gaml.GamlPackage;
-import gama.gaml.compiler.gaml.S_Assignment;
-import gama.gaml.compiler.gaml.S_Equations;
 
 /**
  * <!-- begin-user-doc -->

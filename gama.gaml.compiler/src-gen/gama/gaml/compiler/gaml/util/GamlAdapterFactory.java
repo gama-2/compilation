@@ -3,14 +3,14 @@
  */
 package gama.gaml.compiler.gaml.util;
 
+import gama.gaml.compiler.gaml.*;
+
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
 
 import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;
 
 import org.eclipse.emf.ecore.EObject;
-
-import gama.gaml.compiler.gaml.*;
 
 /**
  * <!-- begin-user-doc -->

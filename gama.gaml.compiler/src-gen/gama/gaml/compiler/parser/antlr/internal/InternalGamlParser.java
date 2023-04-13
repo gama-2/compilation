@@ -3,15 +3,16 @@ package gama.gaml.compiler.parser.antlr.internal;
 import org.eclipse.xtext.*;
 import org.eclipse.xtext.parser.*;
 import org.eclipse.xtext.parser.impl.*;
-
-import gama.gaml.compiler.services.GamlGrammarAccess;
-
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.xtext.parser.antlr.AbstractInternalAntlrParser;
 import org.eclipse.xtext.parser.antlr.XtextTokenStream;
 import org.eclipse.xtext.parser.antlr.XtextTokenStream.HiddenTokens;
 import org.eclipse.xtext.parser.antlr.AntlrDatatypeRuleToken;
+import gama.gaml.compiler.services.GamlGrammarAccess;
+
+
+
 import org.antlr.runtime.*;
 import java.util.Stack;
 import java.util.List;

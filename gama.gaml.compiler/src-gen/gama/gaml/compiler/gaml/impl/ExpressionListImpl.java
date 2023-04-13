@@ -3,6 +3,10 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
+import gama.gaml.compiler.gaml.Expression;
+import gama.gaml.compiler.gaml.ExpressionList;
+import gama.gaml.compiler.gaml.GamlPackage;
+
 import java.util.Collection;
 
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -14,10 +18,6 @@ import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-
-import gama.gaml.compiler.gaml.Expression;
-import gama.gaml.compiler.gaml.ExpressionList;
-import gama.gaml.compiler.gaml.GamlPackage;
 
 /**
  * <!-- begin-user-doc -->

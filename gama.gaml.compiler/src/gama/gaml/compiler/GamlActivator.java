@@ -16,9 +16,8 @@ import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
 import gama.core.annotations.utils.DEBUG;
-import gama.gaml.compiler.gaml.EGaml;
-import gama.gaml.compiler.gaml.expression.GamlExpressionCompiler;
-import gama.gaml.compiler.gaml.resource.GamlResourceInfoProvider;
+import gama.gaml.compiler.expression.GamlExpressionCompiler;
+import gama.gaml.compiler.resource.GamlResourceInfoProvider;
 import gaml.core.compilation.GAML;
 import gaml.core.expressions.GamlExpressionFactory;
 

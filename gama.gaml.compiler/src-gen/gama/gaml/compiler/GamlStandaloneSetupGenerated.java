@@ -5,10 +5,7 @@ package gama.gaml.compiler;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-
 import gama.gaml.compiler.gaml.GamlPackage;
-import gama.gaml.compiler.gaml.GamlRuntimeModule;
-
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl;

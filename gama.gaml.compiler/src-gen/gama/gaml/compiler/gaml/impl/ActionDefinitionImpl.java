@@ -3,10 +3,10 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
-import org.eclipse.emf.ecore.EClass;
-
 import gama.gaml.compiler.gaml.ActionDefinition;
 import gama.gaml.compiler.gaml.GamlPackage;
+
+import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->

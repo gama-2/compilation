@@ -3,13 +3,6 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
-import org.eclipse.emf.ecore.EAttribute;
-import org.eclipse.emf.ecore.EClass;
-import org.eclipse.emf.ecore.EPackage;
-import org.eclipse.emf.ecore.EReference;
-
-import org.eclipse.emf.ecore.impl.EPackageImpl;
-
 import gama.gaml.compiler.gaml.Access;
 import gama.gaml.compiler.gaml.ActionArguments;
 import gama.gaml.compiler.gaml.ActionDefinition;
@@ -83,6 +76,13 @@ import gama.gaml.compiler.gaml.VarFakeDefinition;
 import gama.gaml.compiler.gaml.VariableRef;
 import gama.gaml.compiler.gaml.imageDisplayStatement;
 import gama.gaml.compiler.gaml.speciesOrGridDisplayStatement;
+
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EReference;
+
+import org.eclipse.emf.ecore.impl.EPackageImpl;
 
 /**
  * <!-- begin-user-doc -->

@@ -3,16 +3,16 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
+import gama.gaml.compiler.gaml.GamlDefinition;
+import gama.gaml.compiler.gaml.GamlPackage;
+import gama.gaml.compiler.gaml.S_Experiment;
+import gama.gaml.compiler.gaml.VarDefinition;
+
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EClass;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-
-import gama.gaml.compiler.gaml.GamlDefinition;
-import gama.gaml.compiler.gaml.GamlPackage;
-import gama.gaml.compiler.gaml.S_Experiment;
-import gama.gaml.compiler.gaml.VarDefinition;
 
 /**
  * <!-- begin-user-doc -->

@@ -11,6 +11,6 @@ public class GamlAntlrTokenFileProvider implements IAntlrTokenFileProvider {
 	@Override
 	public InputStream getAntlrTokenFile() {
 		ClassLoader classLoader = getClass().getClassLoader();
-		return classLoader.getResourceAsStream("msi/gama/lang/gaml/parser/antlr/internal/InternalGaml.tokens");
+		return classLoader.getResourceAsStream("gama/gaml/compiler/parser/antlr/internal/InternalGaml.tokens");
 	}
 }

@@ -3,6 +3,10 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
+import gama.gaml.compiler.gaml.Expression;
+import gama.gaml.compiler.gaml.GamlPackage;
+import gama.gaml.compiler.gaml.TypeInfo;
+
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 
@@ -11,10 +15,6 @@ import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
-import gama.gaml.compiler.gaml.Expression;
-import gama.gaml.compiler.gaml.GamlPackage;
-import gama.gaml.compiler.gaml.TypeInfo;
 
 /**
  * <!-- begin-user-doc -->

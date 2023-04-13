@@ -6,20 +6,16 @@ package gama.gaml.compiler;
 import com.google.inject.Binder;
 import com.google.inject.Provider;
 import com.google.inject.name.Names;
-
-import gama.gaml.compiler.gaml.GamlRuntimeModule;
-import gama.gaml.compiler.gaml.generator.GamlGenerator;
-import gama.gaml.compiler.gaml.scoping.GamlScopeProvider;
-import gama.gaml.compiler.gaml.serializer.GamlSemanticSequencer;
-import gama.gaml.compiler.gaml.serializer.GamlSyntacticSequencer;
-import gama.gaml.compiler.gaml.validation.GamlValidator;
+import gama.gaml.compiler.generator.GamlGenerator;
 import gama.gaml.compiler.parser.antlr.GamlAntlrTokenFileProvider;
 import gama.gaml.compiler.parser.antlr.GamlParser;
 import gama.gaml.compiler.parser.antlr.internal.InternalGamlLexer;
+import gama.gaml.compiler.scoping.GamlScopeProvider;
+import gama.gaml.compiler.serializer.GamlSemanticSequencer;
+import gama.gaml.compiler.serializer.GamlSyntacticSequencer;
 import gama.gaml.compiler.services.GamlGrammarAccess;
-
+import gama.gaml.compiler.validation.GamlValidator;
 import java.util.Properties;
-
 import org.eclipse.xtext.Constants;
 import org.eclipse.xtext.IGrammarAccess;
 import org.eclipse.xtext.generator.IGenerator2;
@@ -64,7 +60,7 @@ public abstract class AbstractGamlRuntimeModule extends DefaultRuntimeModule {
 
 	@Override
 	public void configure(Binder binder) {
-		properties = tryBindProperties(binder, "msi/gama/lang/gaml/Gaml.properties");
+		properties = tryBindProperties(binder, "gama/gaml/compiler/Gaml.properties");
 		super.configure(binder);
 	}
 	

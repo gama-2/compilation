@@ -4,7 +4,6 @@
 package gama.gaml.compiler.serializer;
 
 import com.google.inject.Inject;
-
 import gama.gaml.compiler.gaml.Access;
 import gama.gaml.compiler.gaml.ActionArguments;
 import gama.gaml.compiler.gaml.ActionFakeDefinition;
@@ -68,9 +67,7 @@ import gama.gaml.compiler.gaml.VariableRef;
 import gama.gaml.compiler.gaml.imageDisplayStatement;
 import gama.gaml.compiler.gaml.speciesOrGridDisplayStatement;
 import gama.gaml.compiler.services.GamlGrammarAccess;
-
 import java.util.Set;
-
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.xtext.Action;

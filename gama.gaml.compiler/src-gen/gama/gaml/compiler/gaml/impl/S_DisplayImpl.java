@@ -3,14 +3,14 @@
  */
 package gama.gaml.compiler.gaml.impl;
 
+import gama.gaml.compiler.gaml.GamlPackage;
+import gama.gaml.compiler.gaml.S_Display;
+
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EClass;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-
-import gama.gaml.compiler.gaml.GamlPackage;
-import gama.gaml.compiler.gaml.S_Display;
 
 /**
  * <!-- begin-user-doc -->

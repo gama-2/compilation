@@ -4,10 +4,8 @@
 package gama.gaml.compiler.parser.antlr;
 
 import com.google.inject.Inject;
-
 import gama.gaml.compiler.parser.antlr.internal.InternalGamlParser;
 import gama.gaml.compiler.services.GamlGrammarAccess;
-
 import org.eclipse.xtext.parser.antlr.AbstractAntlrParser;
 import org.eclipse.xtext.parser.antlr.XtextTokenStream;
 
